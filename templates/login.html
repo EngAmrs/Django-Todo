@@ -1,0 +1,21 @@
+<form method="POST" style="margin-left: 400px;" class="w-50 mt-5">
+     
+    {% csrf_token %}
+    
+    <div class="mb-3 pb-3 pt-3">
+    
+        <label for="username" class="form-label text-light">Username</label>
+        <input type="text" class="form-control fw-bold" id="username" name="username">
+    
+    </div>
+    
+    <div class="mb-3 pb-3 pt-3">
+    
+        <label for="password" class="form-label text-light">Password</label>
+        <input type="password" class="form-control fw-bold" id="password" name="password">
+    
+    </div>
+    
+    <button type="submit" class="mt-4 w-25 btn btn-primary" style="margin-left: 330px;" >Login</button>
+
+</form>

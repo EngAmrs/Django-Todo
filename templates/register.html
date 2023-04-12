@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+    <div class="container mt-5 bg pt-5 pb-5" style="padding-left: 420px;">
+    
+        <div class="row">
+    
+            <div class="col-md-6">
+    
+                <form method="POST">
+            
+                    {% csrf_token %}
+                
+                    {% bootstrap_form form %}
+                
+                    <button class="btn btn-primary rounded mt-4" type="submit">Sign-Up</button>
+            
+                </form>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+{% endblock %}

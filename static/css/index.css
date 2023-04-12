@@ -1,0 +1,91 @@
+/* .navbar{
+    display: flex;
+} */
+.navbar .profile-pic i{
+    color:cornflowerblue;
+    font-size: 2.5em;
+
+}
+.navbar h2{
+    margin: 0 .4em;
+    font-style: italic;
+}
+
+.navbar .log-out{
+    margin-left: auto;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.navbar .log-out:hover{
+    background: rgb(245, 68, 68);
+}
+
+.navbar .progress{
+
+    flex: 1;
+    flex-basis: 50%;
+    margin: 0 20px;
+
+}
+
+
+section{
+    background: rgb(9,14,124);
+    background: linear-gradient(90deg, rgba(9,14,124,1) 0%, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 61%);
+    height: 100vh;
+}
+
+.todos {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(93, 102, 126, .8);
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+
+.todos h1{
+    margin: 1em 0;
+    flex-basis: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;    
+}
+
+.add-todo{
+    flex-flow: 1;
+    /* width: 50%; */
+    margin: 1em 0;
+}
+.add-todo a{
+  width: 15em;
+}
+ul{
+    
+    flex-wrap: wrap;
+    margin: 1em 0;
+    flex-basis: 100%;
+    color: #fff;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.todos ul  li{
+    display: flex;
+    width: 100%;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 10px;
+}
+.todos ul  li a{
+    color: #fff;
+}
+.todos ul li p{
+    display: inline-block;
+    color: #ccc;
+}
+.todos ul  li .todo-name{
+    flex: 3;
+}
+.main-todos{
+    flex:  1;
+}

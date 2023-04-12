@@ -1,0 +1,11 @@
+{%extends 'base.html'%}
+
+
+{%block content%}
+    {{todo.name}} || created at : {{todo.createdAt}} 
+
+    {% for item in items %}
+        <li>{{item.name}} || {{item.task}}</li>
+
+    {% endfor %}
+{%endblock%}
